@@ -1,0 +1,23 @@
+.tablePanel {
+  background-color: #ffffff;
+}
+
+.tablePanel table {
+  width: 100%;
+}
+
+.tablePanel th {
+  border-bottom: 1px solid #F8F8F8;
+  color: #909AA8;
+  font-size: 14px;
+  padding: 24px;
+  text-align: left;
+}
+
+.tablePanel td {
+  border-bottom: 1px solid #F8F8F8;
+  color: #C8CDD8;
+  font-size: 12px;
+  padding: 16px 24px;
+}
+
