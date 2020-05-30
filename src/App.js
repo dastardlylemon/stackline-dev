@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import fetchProduct from './actions';
+import ProductSidebar from './features/product/ProductSidebar';
 import './App.css';
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
 
   return (
     <div className="App">
-      hello world
+      <div className="container">
+        <ProductSidebar />
+      </div>
     </div>
   );
 }

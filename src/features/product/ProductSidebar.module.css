@@ -1,0 +1,37 @@
+.productSidebar {
+  background-color: #ffffff;
+  max-width: 400px;
+  text-align: center;
+}
+
+.productSidebar h2 {
+  color: #313D54;
+  margin-bottom: 16px;
+}
+
+.productSidebar p {
+  color: #C8CDD8;
+}
+
+.productSidebar img {
+  margin-top: 24px;
+  max-width: 200px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #F5F5F9;
+  border-bottom: 1px solid #F5F5F9;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.tag {
+  border-radius: 4px;
+  border: 1px solid #F5F5F9;
+  color: #7C8E9E;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  margin-right: 8px;
+}
