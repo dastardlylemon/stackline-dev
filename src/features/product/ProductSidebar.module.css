@@ -11,6 +11,8 @@
 
 .productSidebar p {
   color: #C8CDD8;
+  font-size: 14px;
+  padding: 0 24px;
 }
 
 .productSidebar img {
@@ -31,6 +33,7 @@
   border-radius: 4px;
   border: 1px solid #F5F5F9;
   color: #7C8E9E;
+  font-size: 14px;
   padding: 4px 16px;
   margin-bottom: 16px;
   margin-right: 8px;
