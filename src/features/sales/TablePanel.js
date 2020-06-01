@@ -61,7 +61,7 @@ function TablePanel({ sales }) {
         <tbody>
           {sortedSales.map(({ weekEnding, retailSales, wholesaleSales, unitsSold, retailerMargin }) => {
             return (
-              <tr>
+              <tr key={weekEnding}>
                 <td>{weekEnding}</td>
                 <td>{formatPrice(retailSales)}</td>
                 <td>{formatPrice(wholesaleSales)}</td>
