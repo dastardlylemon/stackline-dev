@@ -18,7 +18,7 @@ function ProductSidebar() {
       <p>{subtitle}</p>
       {tags && (
         <div className={styles.tags}>
-          {tags.map((tag) => <div className={styles.tag}>{tag}</div>)}
+          {tags.map((tag) => <div className={styles.tag} key={tag}>{tag}</div>)}
         </div>
       )}
     </div>
